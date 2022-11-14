@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "properties": {
+    "firstname": {"type": "string"},
+    "lastname":  {"type": "string"},
+    "totalprice":  {"type": "integer"},
+    "depositpaid": {"type": "boolean"},
+    "bookingdates": {
+      "checkin": {"type": "string"},
+      "checkout": {"type": "string"}
+    },
+    "additionalneeds": {"type": "string"}
+  }
+}
